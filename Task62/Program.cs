@@ -5,7 +5,7 @@ int[,] matrix = GetMatrixInSpiral();
 PrintMatrix(matrix);
 Console.ResetColor();
 
-//....................Basic methods......................//
+//....................Specific method for this task......................//
 int[,] GetMatrixInSpiral()
 {
     Console.Write("To create matrix of size X*X, enter X: ");
@@ -46,6 +46,8 @@ int[,] GetMatrixInSpiral()
     return matrix;
 }
 
+
+//....................Basic methods......................//
 void PrintMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
